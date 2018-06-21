@@ -16,6 +16,7 @@ git push -u origin master #push
 git status #現在の状態を見る
 git branch #ローカルのブランチを見る
 git branch -a #リモートも含めたリポジトリを見る。WSLだと赤字がリモート。
+git log --graph #ツリーライクに見ることができる。
 git branch [ブランチ名] #ローカルブランチの作成
 git checkout [ブランチ名] #ローカルブランチへの移動
 git checkout -b [ブランチ名] #ローカルブランチの作成と移動を同時に行う。
@@ -29,4 +30,4 @@ git push origin :[リモートブランチ名] #リモートブランチ削除
 
 ▶ 応用編
 git add -p [ファイル名] #ファイル名の一部だけaddすることができる……のだが、いまいち使い方がわからない。その後の対話にeを入力することで一行ごと編集できるが、patchがエラーになる……
-
+git graph #ブランチのツリー表示。標準コマンドではなくショートカット的な。https://wp.pxdesign.jp/2014/08/23/git-hierarchy-structure/参照。
