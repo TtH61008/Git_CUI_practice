@@ -29,5 +29,5 @@ git push -u origin [ローカルブランチ名]:[リモートブランチ名] #
 git push origin :[リモートブランチ名] #リモートブランチ削除
 
 ▶ 応用編
-git add -p [ファイル名] #ファイル名の一部だけaddすることができる……のだが、いまいち使い方がわからない。その後の対話にeを入力することで一行ごと編集できるが、patchがエラーになる……
-git graph #ブランチのツリー表示。標準コマンドではなくショートカット的な。https://wp.pxdesign.jp/2014/08/23/git-hierarchy-structure/参照。
+git add -p [ファイル名] #ファイル内の一部だけaddすることができる……のだが、いまいち使い方がわからない。その後の対話にeを入力することで一行ごと編集できるが、patchがエラーになる……
+git graph #ブランチのツリー表示。標準コマンドではなくショートカット的な。https://wp.pxdesign.jp/2014/08/23/git-hierarchy-structure/参照。gitconfigを置く$HOMEとetcの違いは全ユーザーと自分のみのどちらの設定をいじるかの違いかも
